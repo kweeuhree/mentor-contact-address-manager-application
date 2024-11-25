@@ -1,14 +1,12 @@
 const express = require("express");
-const dotenv = require("dotenv");
 const config = require("./config/db.js");
-require('dotenv').config();
+require("dotenv").config();
+const PORT = 3000;
 
 const app = express();
-dotenv.config({path: "./config.env"});
 
+config();
 
-
-
-app.listen(3000, () => {
-    console.log("Server is running on port 3000");
+app.listen(PORT, () => {
+  console.log("Server is running on port 3000");
 });
