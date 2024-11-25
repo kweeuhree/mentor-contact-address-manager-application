@@ -1,15 +1,14 @@
 const mongoose = require("mongoose");
-const dotenv = require("dotenv");
-dotenv.config({ path: "./config.env" });
+require("dotenv/config");
 
 const Connection = async () => {
     try {
         console.log(process.env.ATLAS_URI);
-        await mongoose.connect(process.env.ATLAS_URI)
+        await mongoose.connect(process.env.ATLAS_URI);
         console.log("Database connected successfully");
     } catch(err) {
         console.log("Database connection failed", err);
     }
 }
 
-Connection();
+Connection()

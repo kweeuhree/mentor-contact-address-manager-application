@@ -1,6 +1,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const config = require("./config/db.js");
+require('dotenv').config();
 
 const app = express();
 dotenv.config({path: "./config.env"});
