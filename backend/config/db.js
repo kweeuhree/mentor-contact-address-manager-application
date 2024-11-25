@@ -4,10 +4,11 @@ dotenv.config({ path: "./config.env" });
 
 const Connection = async () => {
     try {
-        await mongoose.connect(process.env.ATLAS_URI);
+        console.log(process.env.ATLAS_URI);
+        await mongoose.connect(process.env.ATLAS_URI)
         console.log("Database connected successfully");
     } catch(err) {
-        console.log("Error: " + err.message);
+        console.log("Database connection failed", err);
     }
 }
 
