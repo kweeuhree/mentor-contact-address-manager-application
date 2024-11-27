@@ -1,0 +1,12 @@
+/* Home.css */
+
+.home {
+    display: flex;
+    color: #ffffff;
+    flex-decoration: column;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    padding-inline: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../white-triangle-369b8d2d.jpg");
+}
