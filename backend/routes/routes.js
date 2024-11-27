@@ -20,6 +20,6 @@ router.post('/login', [
 
 
 // Contact routes
-// router.post('add-contact', verifyUser,)
+// router.post('add-contact', verifyUser,) // didnt get this far
 
 module.exports = router
