@@ -3,6 +3,8 @@ import Home from './Pages/Home'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'  
 import Register from './Pages/Register' 
 import Login from './Pages/Login'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const router = createBrowserRouter([
   {
@@ -20,7 +22,10 @@ const router = createBrowserRouter([
 ])
 const App = () => {
   return (
+    <>
+    <ToastContainer />
    <RouterProvider router={router}/>
+   </>
   )
 }
 
