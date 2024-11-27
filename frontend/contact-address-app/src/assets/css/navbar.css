@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     padding: 12px;
-    background-color: rgb(5, 121, 121);
+    background-color: #3c096c;
     color: #fff;
     padding-inline: 45px;
 }
@@ -18,7 +18,7 @@
     align-items: center;
 }
 
-navbar-brand {
+.navbar-brand {
     font-size: 1.8rem;
     margin-right: 20px;
     text-decoration: none;
