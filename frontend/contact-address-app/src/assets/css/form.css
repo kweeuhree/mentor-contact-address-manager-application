@@ -46,4 +46,9 @@
     cursor: pointer;
     font-weight: bold;
     margin-top: 8px;
+    margin-bottom: 6px;
+}
+
+.error {
+    color: red
 }
