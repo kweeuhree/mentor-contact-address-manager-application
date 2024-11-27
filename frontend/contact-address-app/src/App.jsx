@@ -3,6 +3,7 @@ import Home from './Pages/Home'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'  
 import Register from './Pages/Register' 
 import Login from './Pages/Login'
+import Contact from './Pages/Contact'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
